@@ -8,7 +8,7 @@ class QuoteManager:
     def __init__(self, filepath: str = "quotes.json"):
         self.filepath = filepath
         self._lock = threading.Lock()
-        self._quotes = []  # type: List[Dict]
+        self._quotes = [] 
         self._load()
 
     def _load(self) -> None:
@@ -24,7 +24,7 @@ class QuoteManager:
                 json.dump(self._quotes, f, indent=2, ensure_ascii=False)
 
     def list_quotes(self) -> List[Dict]:
-        return list(self._quotes)  # return a shallow copy
+        return list(self._quotes)  
 
     def get_random(self) -> Optional[Dict]:
         if not self._quotes:
@@ -49,23 +49,5 @@ class QuoteManager:
             self._save()
             return new
 
-    def update_quote(self, qid: int, text: Optional[str] = None, author: Optional[str] = None) -> Optional[Dict]:
-        with self._lock:
-            q = self.get_by_id(qid)
-            if not q:
-                return None
-            if text is not None:
-                q["text"] = text.strip()
-            if author is not None:
-                q["author"] = author.strip()
-            self._save()
-            return q
 
-    def delete_quote(self, qid: int) -> bool:
-        with self._lock:
-            idx = next((i for i, q in enumerate(self._quotes) if q["id"] == qid), None)
-            if idx is None:
-                return False
-            self._quotes.pop(idx)
-            self._save()
-            return True
+
