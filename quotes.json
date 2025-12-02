@@ -1,5 +1,12 @@
 [
   {"id": 1, "text": "The only limit to our realization of tomorrow is our doubts of today.", "author": "Franklin D. Roosevelt"},
   {"id": 2, "text": "In the middle of difficulty lies opportunity.", "author": "Albert Einstein"},
-  {"id": 3, "text": "Life is 10% what happens to us and 90% how we react to it.", "author": "Charles R. Swindoll"}
+  {"id": 3, "text": "Life is 10% what happens to us and 90% how we react to it.", "author": "Charles R. Swindoll"},
+  {"id": 4, "text": "The future belongs to those who believe in the beauty of their dreams", "author": "Eleanor Roosevelt"},
+  {"id": 5, "text": "Education is the most powerful weapon which you can use to change the world", "author": "B.B King"},
+  {"id": 6, "text": "You don't have to be great to start, but you have to start to be great", "author": "Zig Ziglar"},
+  {"id": 7, "text": "Live as if you were to die tomorrow. Learn as if you were to live forever", "author": "Mahatma Gandhi"},
+  {"id": 8, "text": "The journey of a thousand miles begins with one step", "author": "Lao Tzu"},
+  {"id": 9, "text": "The expert in anything was once a beginner", "author": "Helen Hayes"},
+  {"id": 10, "text": "The secret of getting ahead is getting started.", "author": "Woody Allen"}
 ]
