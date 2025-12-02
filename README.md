@@ -2,8 +2,12 @@ Hi! We are the team POAF, and we created this simple app called "Random Quote Ge
  
  
 Members:
+
 Bautista, Princes Ann
+
 Cabrera, Omnio
+
 Diaz, Aviona Margareth
+
 Dimarucut, Franchesca Joy
  
